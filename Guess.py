@@ -37,6 +37,7 @@ while tries > 0:
         print("Invalid Input")
     if len == mlist:
         print("\nYou won, yayyyyy")
+        print("The word was",word)
         break
     if tries == 0:
         print("\nSorry", name, "you are out of guesses. You lost")
