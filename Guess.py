@@ -16,7 +16,6 @@ for i in mlist:
 
 name = input("What is your name: ")
 print("Hello",name.upper()+", Welcome to my guessing game!")
-#print(word)
 tries = 10
 while tries > 0:
     guess = input("\nPlease enter a character: ")
